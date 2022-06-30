@@ -1,0 +1,143 @@
+﻿@using ExamCode.ViewModel
+@model HomeViewModel
+
+
+    <section class="section-one">
+        <div class="section-one-div">
+            <span>GET PAGE DONE</span><br><br>
+            <h2>It take efforts</h2><br>
+            <h3>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</h3><br>
+        </div>
+        <button type="button" class="btn btn-danger dowload">DOWNLOAD THIS THEME NOW!</button>
+    </section>
+    <section>
+        <div class="section-three">
+            <div class="container">
+                <h1>OUR SERVICES :</h1>
+                <div class="row">
+                
+                    <div class="col-md-6 col-12">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</span>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</span>
+                    </div>
+                </div>
+                <div class="row g-4 banner-row">
+                    @foreach (Service item in Model.services)
+                    {
+                        <div class="col-4 banner">
+                            <i class="@item.Icon"></i>
+                            <h2>@item.Subtitle</h2>
+                            <span>@item.Title</span><br><br>
+                            <span>@item.Text</span>
+                        </div>
+                    }
+
+                </div>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</span>
+            </div>
+        </div>
+    </section>
+    <section class="wall">
+        <div class="container">
+            <div class=" row section-four">
+                <div class="col-9">
+                    <h2>Featured In Wall Street</h2>
+                    <h3>and many other magzines..</h3>
+                </div>
+                <div class="col-2">
+                    <h2>300+</h2>
+                    <h3>Reports</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-five">
+        <div class="projects">
+            <div class="container">
+                <div class="row section-four">
+                    <div class="col-md-3 col-12">
+                        <h2>5000+</h2>
+                        <h3>Projects</h3>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <h2>205+</h2>
+                        <h3>Countries</h3>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <h2>1300+</h2>
+                        <h3>Offices</h3>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <h2>2400+</h2>
+                        <h3>Clients</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="services">
+                <div class="container">
+                    <h1>CONTACT US :</h1>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</span>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <input type="text" class="input" placeholder="Name">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <input type="text" class="input" placeholder="Email address">
+                            </div>
+                            <div class="row">
+                                <div class="col-12 message">
+                                    <textarea name="" class="input" id="" placeholder="Message" style="width: 400px; height: 50px;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary submit">Submit Request</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <div>
+                            <span><b>Address:</b>  123,Your locality , Counrty Name, Pin-20100090.</span>
+                        </div>
+                        <div>
+                            <span><b>Email: </b> info@yourdomain.com</span>
+                        </div>
+                        <div>
+                            <span><b>Web:</b> www.yourdomain.com</span>
+                        </div>
+                        <div>
+                            <span> <b>Mobile:</b> +00-909-808-707-00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <span>2015 www.yourdomain.com | All Right Reserved | Terms | Policies | Licenses</span>
+            </div>
+        </footer>
+    </section>
