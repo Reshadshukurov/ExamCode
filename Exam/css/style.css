@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+}
+.mynav{
+    background-color: black;
+    color: white;
+}
+.peterna{
+    font-size: 25px;
+    font-weight:500;
+}
+.section-one{
+    background-color: teal;
+    text-align: center;
+    padding: 200px 0px;
+}
+.section-one-div span{
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+}
+.section-one-div h2{
+    color: white;
+    font-size: 50px;
+}
+.section-one-div h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+.dowload{
+    border-radius: 0px;
+}
+.section-three{
+    height: 120vh;
+    background-image: url(../img/sativa.png);
+    background-repeat: repeat;
+}
+.section-three h1{
+    color: teal;
+    font-size: 45px;
+    padding: 30px 0px;
+    padding-top: 150px;
+}
+.section-three h2{
+    font-weight: 400;
+}
+.section-three span{
+    opacity: .9;
+
+}
+.banner{ 
+    text-align: center;
+    color: white;
+    background-color: teal;
+    height: 45vh;
+}
+.banner i{
+    font-size: 90px;
+}
+.banner h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.banner-row{
+    padding: 60px 0px;
+}
+.wall{
+    color: white;
+    height: 25vh;
+    width: 100%;
+    background-color: teal;
+}
+.section-four h2{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 65px;
+}
+.section-four h3{
+    text-align: center;
+}
+.section-five{
+    padding: 60px 0px;
+    height: 120vh;
+    background-image: url(../img/sativa.png);
+    background-repeat: repeat;
+}
+.projects{
+    color: white;
+    height: 25vh;
+    width: 100%;
+    background-color: teal; 
+}
+.services h1{
+    color: teal;
+    font-size: 45px;
+    padding: 30px 0px;
+    padding-top: 150px;
+}
+.services h2{
+    font-weight: 400;
+}
+.services span{
+    opacity: .9;
+}
+.contact-us{
+    padding: 60px 0px;
+}
+.input{
+    width: 95%;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: none;
+}
+.submit{
+    padding: 3px 12px;
+    border-radius: 3px;
+}
+.message{
+    padding: 15px;
+}
+.input-text{
+    border: none;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: end;
+    padding: 15px 0px;
+    height: 6vh;
+    background-color: black;
+    color: white;
+
+}
+
